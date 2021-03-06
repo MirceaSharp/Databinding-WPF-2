@@ -1,0 +1,41 @@
+﻿<Window x:Class="Les_32_WPF_en_Databinding.MainWindow"  Loaded="Window_Loaded"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les_32_WPF_en_Databinding"
+        mc:Ignorable="d"
+        Title="Les 32 WPF &amp; Databinding:  Binding to ... een klasse" Height="274.19" Width="589.847">
+
+    <WrapPanel Margin="0,0,13,0" >
+
+        <StackPanel Margin="10">
+            <TextBlock Text="Zonder Interfaces"/>
+            <TextBox Name="txtNaamZonder"  Text="{Binding Path=Naam}"/>
+            <Button Name="btnVeranderZonder" Content="Verander" Click="btnVeranderZonder_Click"/>
+            <Button Name="btnToonNaamZonder" Content="Toon Naam msgBox" Click="btnToonNaamZonder_Click"/>
+            <Label Name="lblNaamZonder" Content="{Binding ElementName=txtNaamZonder, Path=Text}"/>
+        </StackPanel>
+
+        <StackPanel Margin="10">
+            <TextBlock Text="INotifyPropertyChanged"/>
+            <TextBox Name="txtNaam"  Text="{Binding Path=Naam}"/>
+            <Button Name="btnVerander" Content="Verander" Click="btnVerander_Click"/>
+            <Button Name="btnToonNaam" Content="Toon Naam via msgBox" Click="btnToonNaam_Click"/>
+            <Label Name="lblNaam" Content="{Binding ElementName=txtNaam, Path=Text}"/>
+        </StackPanel>
+
+
+        <StackPanel Margin="10">
+            <TextBlock Text="INotifyPropertyChanged en IDataErrorInfo "/>
+            <TextBox Name="txtFullOptionPersoonNaamIDataError" 
+                     Text="{Binding Path=Naam, ValidatesOnDataErrors=True, UpdateSourceTrigger=LostFocus}"/>
+            <Label Name="lblFullOptionPersoonNaamIDataError" Content="{Binding ElementName=txtFullOptionPersoonNaamIDataError, Path=Text}"/>
+            <Label Grid.Column="1" Grid.Row="1" Content="{Binding (Validation.Errors)[0].ErrorContent, ElementName=txtFullOptionPersoonNaamIDataError}"/>
+
+        </StackPanel>
+        <Button Name="btnBindToCont"  Content="Binding To Control" Width="131" Margin="5" Click="btnBindToCont_Click"/>
+        <Button x:Name="btnBindToCol" Content="Binding To Collection" Width="134" Margin="5" Click="btnBindToCol_Click"/>
+
+    </WrapPanel>
+</Window>
