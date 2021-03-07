@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\hans\source\repos\Les 32 WPF en Databinding\Les 32 WPF en Databinding\obj\Debug\
+C:\Users\mirce\source\repos\Databinding WPF 2\Les 32 WPF en Databinding\obj\Debug\
 Les_32_WPF_en_Databinding
 none
 false
 DEBUG;TRACE
-C:\Users\hans\source\repos\Les 32 WPF en Databinding\Les 32 WPF en Databinding\App.xaml
+C:\Users\mirce\source\repos\Databinding WPF 2\Les 32 WPF en Databinding\App.xaml
 3-1973704505
 
 11345020807
 151397803362
 MainWindow.xaml;winBindingToCollection.xaml;winBindingToControl.xaml;
 
-False
+True
 

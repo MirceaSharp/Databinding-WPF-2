@@ -1,0 +1,19 @@
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\bin\Debug\Les 32 WPF en Databinding.exe.config
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\bin\Debug\Les 32 WPF en Databinding.exe
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\bin\Debug\Les 32 WPF en Databinding.pdb
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\Databinding WPF 2.csprojAssemblyReference.cache
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\MainWindow.g.cs
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\winBindingToCollection.g.cs
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\winBindingToControl.g.cs
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\App.g.cs
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\Les 32 WPF en Databinding_MarkupCompile.cache
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\Les 32 WPF en Databinding_MarkupCompile.lref
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\MainWindow.baml
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\winBindingToCollection.baml
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\winBindingToControl.baml
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\Les 32 WPF en Databinding.g.resources
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\Les_32_WPF_en_Databinding.Properties.Resources.resources
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\Databinding WPF 2.csproj.GenerateResource.cache
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\Databinding WPF 2.csproj.CoreCompileInputs.cache
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\Les 32 WPF en Databinding.exe
+C:\Users\mirce\source\repos\Databinding WPF 2\Databinding WPF 2\obj\Debug\Les 32 WPF en Databinding.pdb
