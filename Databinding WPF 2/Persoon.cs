@@ -26,6 +26,11 @@ namespace Les_32_WPF_en_Databinding
 
         public Persoon(string naam)
         {
+
+
+
+
+
             this.Naam = naam;
         }
 
